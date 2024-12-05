@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; 
+    color: #ffffff; 
+    line-height: 1.6;
+  }
+  
+    /* nav section */
+  nav {
+    background-color: #11243088; 
+    padding: 12PX 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 4rem;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #00d1ff; 
+  }
+  /* /nav section */
+
+  /* Home Page */
+  main{
+    height: 100vh;
+    margin-top: 50px;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/IMAGE/ambience-rendering-blue-lit-stage-in-3d-rendered-black_9620647.jpg!w700wp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+  .hero-section {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .hero-section img {
+    width: 250px; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 20px rgba(0, 209, 255, 0.5); 
+  }
+  
+  .hero-section h1 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    color: #00d1ff; 
+    font-size: 70px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #b3b3cc; 
+  }
+
+/* /Home Page */
+
+    /* About us */
+    .about{
+        height: 100vh;
+        /* background-color: aqua; */
+    }
+    .about h2{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 50px;
+        color:#00d1ff;
+    }
+    .container{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 200px;
+        /* background-color: red; */
+    }
+    .container h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .container button{
+        margin-top: 30px;
+    }
+    .container img{
+        border-radius: 30px;
+    }
+    /* /About us */
+
+/* Generate Page */
+.Gen-page{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+height: 100vh;
+background-image: linear-gradient(#000000, #0783b415, #007aae42);
+/* background-color: #00abee15; */
+}
+.Gen-page h2{
+    font-size: 40px;
+    color:#00d1ff;
+}
+.prompt{
+background-color: #151a1c;
+padding: 5px;
+width: 620px;
+border: 3px solid #0e364d;
+border-radius: 10px;
+margin-bottom: 150px;
+}
+
+ input,button{
+    padding:10px ;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+}
+input{
+    background-color: #151a1c;
+    width: 75%;
+    outline: none;
+    margin-left: 41px;
+    
+}
+button{
+    background-color:#3c4144 ;
+    cursor: pointer;
+}
+button:hover{
+    background: #00d1ff;
+}
+.images div{
+    height: 300px;
+    width: 300px;
+    background-color: #151a1c;
+    border-radius: 30px;
+    border: 3px solid #0e364d;
+}
+
+.images div:hover{
+
+}
+    .images{
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+
+ .img1 img{
+    width: 100%;
+    border-radius: 10px;
+ }
+/* /Generate Page */
+
+ 
+/* Our Works */
+.our-work{
+    background-color: #010508;
+    height: 120vh;
+    background-image:   linear-gradient( rgba(5, 44, 58, 0.7),rgba(0, 0, 0, 0.7)),url(/IMAGE/Motion.gif);
+    background-position: center;
+    background-size: cover;
+}
+.container-work{
+    width: 80%;
+    margin: auto;
+}
+.our-work h2{
+text-align: center;
+color: #00d1ff;
+font-size: 40px;
+padding-top: 50px;
+
+}
+.our-work .images{
+    width: 100%;
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+
+}
+.our-work .images div {
+    height: 320px;
+    width: 320px;
+    background-color: #0e364d;
+    border: 0px solid #0e364d;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 6px 5px 5px rgba(0, 0, 0, 0.5); 
+    transition: all 0.5s;
+}
+.our-work .images div img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.our-work .images div:hover{
+transform: scale(1.2);
+}
+
+/* /Our Works */
+
+     /* contact page */
+
+     .contact {
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+        height: 100vh;
+    }
+    .contact h2{
+        font-size: 40px;
+        color: #00d1ff;
+
+    }
+    .Contact-Cont{
+        display: flex;  
+        width: 80%;
+        background-color: #00abee15;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    form{
+        width: 200%;
+        padding: 30px;
+    }
+    form input, form textarea, form button {
+        width: 100%;
+        max-width: 400px; 
+        margin: 20px auto;
+        padding: 20px;
+        border: 3px solid #0e364d;
+        border-radius: 10px;
+        display: block;
+    }
+    form button {
+        background: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    form button:hover {
+        background: #00acee;
+        ;
+    }
+     /* /contact page */
+.contact-info{
+    width: 100%;
+    margin-left: 200px;
+    padding: 30px;
+}
+.contact-info li {
+    text-align: left;
+    list-style: none;
+    padding: 12px;
+}
+
+
+footer p{
+    padding-top: 40px;
+}
+
+ footer {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #00abee15;
+    color: #fff;
+  }
+  footer a{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #00acee; 
+  }
+  

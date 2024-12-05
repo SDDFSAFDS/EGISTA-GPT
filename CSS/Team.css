@@ -1,0 +1,26 @@
+*{
+    /* background-color: rgb(1, 16, 16); */
+}
+.Team{
+    background-color: #008cff;
+    margin-top: 50px;
+    display: flex;
+    margin: 300px 50px;
+    border-radius: 30px;
+
+}
+.Team h1{
+    text-align: center;
+    margin: auto;
+    padding: 50px 0;
+}
+.Team h1:hover,.A1:hover{
+    color: red;
+}
+.Team  a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.Team a:hover{
+    color: red;
+}
